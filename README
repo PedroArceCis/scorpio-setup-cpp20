@@ -4,15 +4,15 @@
    so it can be crosschecked 
 
    $ git clone https://github.com/gemini-hlsw/gmp.git # branch dockerize15.0.7
-   $ git clone https://github.com/gemini-hlsw/giapi-glue-cc.git # branch dockerize
+   $ git clone https://github.com/PedroArceCis/giapi-glue-cc_20.git # fork repo with the updates for C++20
 
 2. Build images 
    
-   $ docker-compose build
+   $ docker compose build
 
 3. Run container with glue 
 
-   $ docker-compose run giapi-glue-lib 
+   $ docker compose run giapi-glue-lib 
 
 4. (Optional) To see gmp log in another terminal:
    
