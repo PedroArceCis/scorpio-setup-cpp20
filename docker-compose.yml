@@ -14,7 +14,7 @@ services:
   giapi-glue-ext:
     build:
       context: ./giapi-glue-cc/external/
-    image: giapi-glue-cpp20-ext:rocky8
+    image: giapi-glue-cpp20-ext:rocky9
     volumes:
       - ./giapi-glue-cc/external:/home/software/giapi-glue-cc/external
 
